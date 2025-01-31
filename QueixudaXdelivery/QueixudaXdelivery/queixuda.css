@@ -1,0 +1,104 @@
+*{  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;             }
+
+div{        border: 0px solid black;                          }
+
+.tudo{      background-color: #DFAC8D;                        width: 100%;                    margin-top: 0px;          }
+
+.secaofixa{ border-bottom:3px ridge rgb(255, 255, 255);       background-repeat: no-repeat;     text-align: center;
+            box-shadow: 0px 15px 15px #8C4D2E;                align-content: space-between;     position: fixed;
+            grid-template-columns: 23% 45% 32%;                 background-size: 100% 100%;       display: grid;
+            background-image: url(logo1.png);                   grid-template-rows: 100%;         height: 20%;
+            background-position: 100% 100%;                     justify-content: center;          width: 100%;                  }
+
+.secaofinal{border-top:3px ridge rgb(255, 255, 255);          background-repeat: no-repeat;     margin-bottom: 0px;
+            background-image: url(mad.png);                     background-size: cover;           display: grid;
+            grid-template-columns: 50% 50%;                     padding-top: 1px;                 height: 190px;
+            color: rgb(4, 23, 107);                           }
+
+.aviso{     background-color: white;                          color: orange;                  border-radius: 20px;
+            margin-left: auto;                                  width: 45%;                       justify-content: center;
+            margin-right: auto;                                 padding: 1%;                      margin-bottom: 25px;
+            border: 3px dashed black;                         font-weight: 600;                 text-align: center;             }
+
+.imgfim{    margin-left: 12%;   }
+
+.p2 a{      color: rgb(4, 23, 107);}                         .p1{padding: 3px;   }             .p2{display: grid;  }            
+
+.quem{      font-style: italic;                                  font-size: 25px;                 width: 150px;      
+            border-radius: 10px;                                 margin-top: 3px;                 font-weight: 700;               }
+
+.p2 a :hover{border: 3px dashed darkcyan;                     color: rgb(4, 23, 107);        text-decoration: none;          }
+
+.contra{     font-weight: 900;                                  font-size: 30px;                    }
+
+.frete{      font-size: larger;                                 font-weight: 800;                   }
+
+.local{      text-align: start;                                 margin-left: 10%;                font-size: 120%;
+             display: grid;                                     grid-template-rows: 43% 57%;     min-width: 420px;                }
+
+.empre{      text-align: start;                                margin: 0px;                      min-width: 300px;
+             font-weight: bold;                                font-size:  larger;               padding-right: 0%;
+             grid-template-rows: 54% 46%;                      display: grid;                    color: white;                  }
+
+.fone{       text-align: end;                                  display: grid;                    grid-template-rows: 43% 57%;                  
+             margin-right: 10%;                                font-size: 120%;                  min-width: 420px;                }
+
+.oi{         padding: 1%;                                      font-size: 130%;                  }
+
+.menu{       background-image: url(fundomenu.jpg);             padding-top: 13%;                 padding-bottom: 20px;            }
+
+.comi{       grid-template-columns: 5% 30% 30% 30% 5%;         display: grid;                    text-align: center;    }
+
+.tit{        justify-content: center;                          text-align: center;             font-size: large;
+             background-color: #8C4D2E;                      color: azure;                 padding: 15px;
+             border: 3px dashed #A2A183;                     margin-left: auto;              margin-right: auto;
+             border-radius: 30px;                              margin-bottom: 3%;              margin-top: 5%;
+             border-style: dashed 3px;                         color: rgb(255, 255, 255);    width: 35%;                           
+             box-shadow: 10px 10px 10px rgb(138, 92, 8);     }
+
+.come{       background-image: url(fundocome.jpg);             margin-left: auto;              margin-right: auto;
+             border: 1px solid;                                margin-top: 15px;               margin-bottom: 15px;
+             box-shadow: 0px 0px 13px wheat;                 display: grid;                  font-size: 13px;
+             box-shadow: 0px 0px 15px white;                 height: 135px;                  width: 80%;
+             border-radius: 15px;                              border: 0px;                    padding: 0%;
+             grid-template-columns: 30% 65%;                 }
+
+.comi :hover{transform: scale(1.05);                           text-decoration: none;          }
+
+.come :hover{transform: none;                                  text-decoration: none;          }
+
+.parte2:hover{text-decoration: none;  }                        a{text-decoration: none;        }
+
+.parte1{     padding: 0%;                                      margin: 0%;                     }
+
+.parte2{     padding: 0%;                                      text-align: end;                color: gold;
+             grid-template-rows: 50% 50%;                      display: grid;                  text-decoration: none;
+             margin: 0%;                                       font-weight: 600;                }
+
+.fts > img{ padding: 0px;                                       margin: 0px;                    border-radius: 15px;
+            margin-left: 0px;                                   }
+
+.nome{      padding: 0%;                                        margin: 0%;                     text-align: end;                
+            margin-top: 5%;                                     }
+
+.preco{     padding-top: 10%;                                   margin: 0%;                     text-align: end;
+            margin-bottom: 0%;                                  }
+
+.img{       width: 30px;                                        height: 30px;                   }
+
+.tudo{      background-image: url(FundoEquipe.jpg);             background-position: center;    background-size: 100% 100%;
+            background-repeat: no-repeat;                       background-color: white;      }
+
+.grupo{     grid-template-columns: minmax(200px, 1fr) 1fr 1fr;  display: grid;                  }
+
+.titg{      margin: auto;                                       text-align: center;             padding: 16px;
+            border: 15px outset blue;                         width: 50%;                     border-radius: 30px;
+            font-size: 24px;                                    }
+
+.pessoa1{   margin: auto;                                       text-align: center;             margin-top: 6%;             }
+
+.pessoa2{   margin: auto;                                       margin-top: 20%;                text-align: center;
+            margin-bottom: 100%;                                }
+
+.info{     background-color: rgba(255, 255, 255, 0.8);        font-weight: 700;               border-radius: 20px;      }
+
